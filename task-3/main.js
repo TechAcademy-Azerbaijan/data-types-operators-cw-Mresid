@@ -2,9 +2,9 @@ const prompt = require('prompt');
 prompt.start();
 
 
-prompt.get('a', function (err, result) {
-let a = result.a;
-let b = a.split(",");
+prompt.get('input', function (err, result) {
+let input = result.input;
+let b = input.split(",");
 let c = parseInt(b[0]);
 let d = parseInt(b[1]);
 let e = c**d;
